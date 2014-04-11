@@ -114,7 +114,7 @@
   <input type="hidden" name="DISTRICT_ID" value="{{selectedTarget.district_id}}">
 
   <div class="text-center submit">
-    <div ng-class="{ hidden: !proposalForm.$invalid }" class="alert alert-danger">請確認上面標為紅色的欄位均以填寫，並且身分證字號無誤。</div>
+    <div ng-class="{ hidden: !proposalForm.$invalid }" class="alert alert-danger">請確認上面標為紅色的欄位均已填寫，並且身分證字號無誤。</div>
     <button type="submit" class="btn btn-primary"
       ng-disabled="proposalForm.$invalid"
       ng-click="preview(proposalForm)">
